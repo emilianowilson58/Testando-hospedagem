@@ -1,0 +1,105 @@
+body{
+    background-image: url(favoritos/Sem.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 20px;
+    color: rgb(6, 41, 196);
+}
+
+.cabecalho{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 20px;
+    
+
+}
+
+div.bott{
+    display: block;
+    margin: auto;
+    padding: 40px;
+    width:300px;
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.705);
+    max-width: 200px;
+}
+
+input{
+    border-color: rgba(0, 0, 0, 0.692);
+    border-radius: 10px;
+    width: 14em;
+    display: block;
+    margin: auto;
+
+    left: 30%;
+    top: 10%;
+    max-width: 350px;
+}
+#nom{
+    margin-bottom: 40px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#Pass{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+#Entrar{
+    color: aliceblue;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 10em;
+    margin-top: 30px;
+    cursor: pointer;
+    border-color: rgb(6, 41, 196);
+    background-color: rgb(6, 41, 196);
+}
+
+.nova{
+    color: aliceblue;
+    width: 10em;
+    padding: 10px;
+    margin-top: 70px;
+    cursor: pointer;
+    border-color: rgb(8, 190, 23);
+    background-color: rgb(8, 190, 23);
+}
+
+a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.rodape{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 22px;
+}
